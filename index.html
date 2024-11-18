@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="estilo.css">
+    <title>teste-1</title>
+</head>
+
+<body>
+    <h1>testando todos meus conhecimentos de Html5 e Css3</h1>
+    <h2>Faça uma tabela de compras!</h2>
+    <table>
+
+        <thead>
+            <tr>
+                <th>Produto</th>
+                <th>Quantidade</th>
+                <th>Valor</th>
+                <th>Estado do produto</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Arroz</td>
+                <td>1Kg</td>
+                <td>R$8,00</td>
+                <td class="Perfeito">Perfeito</td>
+            </tr>
+
+            <tr>
+                <td>Oléo</td>
+                <td>1,5L</td>
+                <td>R$12,00</td>
+                <td class="Bom">Bom</td>
+            </tr>
+
+            <tr>
+                <td>Peixe</td>
+                <td>3Kg</td>
+                <td>R$30,00</td>
+                <td class="Regular">Regular</td>
+            </tr>
+
+            <tr>
+                <td>Água</td>
+                <td>2L</td>
+                <td>R$10,00</td>
+                <td class="Ruim">Ruim</td>
+            </tr>
+        </tbody>
+
+    </table>
+
+    <h2>Faça um formulário!</h2>
+
+    <form action="index.html" method="post" enctype="multipart/form-data">
+
+        <label for="Nome"></label>
+        <input type="text" name="Nome" placeholder="Nome" id="Nome">
+
+        <label for="sobrenome"></label>
+        <input type="text" name="sobrenome" placeholder="sobrenome" id="sobrenome">
+
+        <br><br>
+
+        <label for="contato"></label>
+        <input type="text" name="celular-ou-email" placeholder="celular ou email" id="contato">
+
+        <br><br>
+
+        <label for="senha"></label>
+        <input type="password" name="senha" placeholder="senha" id="senha">
+        <br><br>
+
+        <label>Data de nascimento:</label>
+        <br>
+        <select name="dia">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+
+        </select>
+
+        <select name="mês">
+            <option value="jan">jan</option>
+            <option value="fev">fev</option>
+            <option value="mar">mar</option>
+            <option value="abr">abr</option>
+            <option value="jun">jun</option>
+
+        </select>
+
+        <select name="Ano">
+            <option value="2001">2001</option>
+            <option value="2002">2002</option>
+            <option value="2003">2003</option>
+            <option value="2004">2004</option>
+            <option value="2005">2005</option>
+
+        </select>
+
+        <br><br>
+
+        <label>Gênero</label>
+
+        <br>
+
+        <label for="masculino">masculino</label>
+        <input type="radio" name="gênero" value="masculino" id="masculino" checked>
+
+        <label for="femenino">femenino</label>
+        <input type="radio" name="gênero" value="femenino" id="femenino">
+
+        <label for="Bissexual">Bissexual</label>
+        <input type="radio" name="gênero" value="Bissexual" id="Bissexual">
+
+        <br><br>
+
+        <input type="file">
+
+        <br><br>
+
+<input type="submit" value="cadastrar-se">
+
+
+
+    </form>
+</body>
+
+</html>
